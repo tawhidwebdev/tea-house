@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <!-- tailwindcss cdn link -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- font awesome cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="banner_section max-w-6xl mx-auto mt-5 md:mt-17 px-6 md:px-0">
+    <div class="main md:flex gap-x-5">
+      <div class="left_div md:w-1/2">
+        <h1 class="text-6xl md:text-[80px] leading-20 md:leading-25 text-[#1C1C1C] font-bold md:font-extrabold">It's good tea time at The Tea House</h1>
+        <p class="mt-5 md:mt-7.5 text-lg/[30px] text-[#777] font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+        <button class="mt-7.5 text-white text-xl/normal font-bold bg-linear-[270deg,#F00_0%,#FF8938_100%] rounded-[10px] p-4.5">Explore More<i class="fa-solid fa-arrow-right left-2.5"></i></button>
+      </div>
+      <div class="right_div md:w-1/2 relative top-12 md:top-16">
+        <picture>
+          <img src="./images/banner.png" alt="Tea House Banner Image" class="banner_image">
+        </picture>
+        <div class="ratings_card w-56 h-25 shadow-[0_7px_50px_0_rgba(0,0,0,0.06)] rounded-[10px] flex items-center justify-center relative bottom-16 md:bottom-20 left-6 md:left-20 z-10 bg-white">
+          <span><i class="fa-solid fa-star text-[#FFC850] text-2xl"></i></span>
+          <div class="flex flex-col ml-3">
+            <span class="text-[#1C1C1C] text-3xl font-extrabold">5.00</span>
+            <span class="text-[#777] text-base/normal font-semibold">Trust Pilot Ratings</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="featured_product_section max-w-6xl mx-auto mt-10 md:mt-35 mb-10 md:mb-32.5 px-6 md:px-0">
+    <div class="main">
+      <h2 class="text-[#1C1C1C] text-5xl/normal font-bold md:font-extrabold text-center">Our Featured Products</h2>
+      <p class="text-[#777] text-base/[28px] font-medium text-center mt-3 block md:hidden">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+      <p class="text-[#777] text-base/[28px] font-medium text-center mt-5 hidden md:block">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable.</p>
+      <div class="product_card_wrapper mt-12.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="product_card bg-linear-[180deg,#f4f4f4_100%,#F4F4F4_0] rounded-[10px] p-7.5 flex flex-col items-center justify-center text-center">
+          <picture>
+            <img src="./images/tea-1.png" alt="Image">
+          </picture>
+          <h5 class="mt-7.5 text-2xl/normal text-[#1C1C1C] font-extrabold">Milk Tea</h5>
+          <p class="mt-2.5 text-[#777] text-base/normal font-semibold">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="product_card bg-linear-[180deg,#f4f4f4_100%,#F4F4F4_0] rounded-[10px] p-7.5 flex flex-col items-center justify-center text-center">
+          <picture>
+            <img src="./images/tea-2.png" alt="Image">
+          </picture>
+          <h5 class="mt-7.5 text-2xl/normal text-[#1C1C1C] font-extrabold">Milk Tea</h5>
+          <p class="mt-2.5 text-[#777] text-base/normal font-semibold">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="product_card bg-linear-[180deg,#f4f4f4_100%,#F4F4F4_0] rounded-[10px] p-7.5 flex flex-col items-center justify-center text-center">
+          <picture>
+            <img src="./images/tea-3.png" alt="Image">
+          </picture>
+          <h5 class="mt-7.5 text-2xl/normal text-[#1C1C1C] font-extrabold">Milk Tea</h5>
+          <p class="mt-2.5 text-[#777] text-base/normal font-semibold">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="product_card bg-linear-[180deg,#f4f4f4_100%,#F4F4F4_0] rounded-[10px] p-7.5 flex flex-col items-center justify-center text-center">
+          <picture>
+            <img src="./images/tea-4.png" alt="Image">
+          </picture>
+          <h5 class="mt-7.5 text-2xl/normal text-[#1C1C1C] font-extrabold">Milk Tea</h5>
+          <p class="mt-2.5 text-[#777] text-base/normal font-semibold">Creamer could be replaced by fresh milk</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
